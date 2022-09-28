@@ -1,0 +1,9 @@
+[
+    {
+        "id":1,"task":"ir a comprar","completada":false
+    },{
+        "id": 2,"task":"cambiar cordones","completada":false
+    },{
+        "id":3,"task":"formatear pc","completada":true
+    }
+]
