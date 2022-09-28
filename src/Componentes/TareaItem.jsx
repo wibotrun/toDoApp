@@ -6,9 +6,9 @@ function TareaItem({tarea, onComplete,onDeleteItem}){
         textDecoration: tarea.completada ? 'line-through' : 'none', 
             margin: '10px',
             border: '1px solid white',
-            backgroundColor: tarea.completada ? 'rgb(112, 64, 64)':'white',
+            backgroundColor: tarea.completada ? 'green':'white',
             borderRadius: '5px',
-            
+             color: tarea.completada ? 'white' : '' 
             }
     }
   
