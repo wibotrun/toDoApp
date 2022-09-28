@@ -1,12 +1,31 @@
 .container{
-  margin: auto;
+  margin: 10px auto;
   width: 50%;
   border: 1px solid green;
-  background-color: antiquewhite;
-  padding: 10px;
+  background-color:  rgb(51, 56, 61);
+  padding: 10px ;
+  height: 650px;  
+  justify-content: center;
+  align-items: center;
+  display: block;
+  border-radius: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .add-btn{
   float: right;
   background-color: red;
   color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.tareasContainer{
+  text-align: center;
+  color: white;
+}
+.inputTarea{
+  margin: 5px;
+  width: 50%;
+  
 }
