@@ -19,7 +19,7 @@ const handleSubmit=(e)=>{
         <div style={{margin:20}}>
             <form onSubmit={handleSubmit}>
                <input type="text" value={userInput} onChange={handleOnChange}></input>
-                <button>Agregar</button>
+                <button className="btn-agregar">Agregar</button>
             </form>
         </div>
     )
