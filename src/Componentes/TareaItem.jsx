@@ -4,9 +4,10 @@ function TareaItem({tarea, onComplete,onDeleteItem}){
   const getStyle=()=>{
     return{
         textDecoration: tarea.completada ? 'line-through' : 'none', 
-            margin: '20px',
+            margin: '10px',
             border: '1px solid white',
-            backgroundColor: 'yellowgreen',
+            backgroundColor: tarea.completada ? 'rgb(112, 64, 64)':'white',
+            borderRadius: '5px',
             
             }
     }
